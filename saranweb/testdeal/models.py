@@ -10,4 +10,3 @@ class MyDeal(models.Model):
     up_count = models.IntegerField()
     enroll = models.CharField(max_length=200,default="")
     created_at = models.DateTimeField(default=now)
-
