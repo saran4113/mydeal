@@ -12,7 +12,7 @@ router.register("myDeals",testdeal.views.MyDealViewSet)
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index),
-    path('api2/',include(router.urls))
+    path('api/',include(router.urls))
 
 
 ]
